@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2922;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  /* margin-bottom: 50px; */
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  color: #ffffff;
+  margin-left: 300px;
+}
+
+.list-item {
+  margin-right: 50px;
+  font-weight: lighter;
+  color: #9b9b9b;
+}
+
+.list-item:first-child {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.button-small {
+  background-color: transparent;
+  border: 2px solid #808000;
+  color: #808000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 100px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.heading h1 {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: capitalize;
+  width: 500px;
+}
+
+.heading p {
+  font-size: 16px;
+  width: 250px;
+  color: #ffffff;
+  font-weight: lighter;
+}
+
+.container2 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.bottom {
+  height: 70px;
+}
+
+.bottom > .fa-circle-chevron-left {
+  font-size: 50px;
+  color: #808000;
+  position: relative;
+  margin-left: 1100px;
+  /* margin-top: 10px; */
+  background-color: #39372d;
+  padding: 10px 10px;
+  /* margin-right: 20px; */
+}
+
+.bottom > .fa-circle-chevron-right {
+  font-size: 50px;
+  color: #ffffff;
+  position: relative;
+  background-color: olive;
+  padding: 10px 10px;
+}
